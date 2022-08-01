@@ -1,21 +1,21 @@
 :root{
 
-	--maincolor: #15202B;
-	--secondarycolor: #192734;
+	--maincolor: #CCCC00;
+	--secondarycolor: #FFFF00;
 
-	--bordercolor: #164D56;
+	--bordercolor: #FFFF00;
 
 	--maintext: #fff;
-	--secondarytext: #eeeeee;
+	--secondarytext:  #eeeeee;
 
-	--themedotborder: #fff;
+	--themedotborder: black;
 
 	--previewbackground: rgb(25, 39, 52, 0.8);
 	--previewshadow: #111921;
 }
 
 .post-preview{
-	background-color: #192734;
+	background-color: #515a48;
 	padding: 15px;
 }
 

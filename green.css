@@ -1,0 +1,30 @@
+:root{
+
+	--maincolor: #606B56;
+	--secondarycolor: #515a48;
+
+	--bordercolor: #161914;
+
+	--maintext: #fff;
+	--secondarytext:  #eeeeee;
+
+	--themedotborder: #fff;
+
+	--previewbackground: rgb(81, 90, 72, 0.8);
+	--previewshadow: #2a2f25;
+}
+
+.post-preview{
+	background-color: #515a48;
+	padding: 15px;
+}
+
+.post-intro{
+	color: #eeeeee;
+	font-size: 16px;
+}
+
+.post-title{ 
+	color: #fff;
+	margin: 0;
+}
