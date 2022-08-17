@@ -22,7 +22,39 @@
 	<section class = "s1">
 		<div class = "main-container">
 			<div class="greeting-wrapper">
-				<h1>Hi, I am Sohel Saini</h1>
+				<script type="text/javascript" src=" https://code.jquery.com/jquery-3.0.0.min.js"></script>
+				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typeit/6.5.1/typeit.min.js"></script>
+
+				<h1>I am <span id="typer"></span></h1>
+				<script type="text/javascript">
+				new TypeIt("#typer", {
+				speed: 90,
+				loop: true,
+				waitUntilVisible: true,
+					})
+				.type("Sohel Saini...", { delay: 200 })
+				.pause(1500)
+				.delete()
+				.type("a Computer Engineer...", { delay: 400 })
+				.pause(1000)
+				.delete()
+				.type("a Game Developer...", { delay: 400 })
+				.pause(1000)
+				.delete()
+				.type("a Team Player...", { delay: 400 })
+				.pause(1000)
+				.delete()
+				.type("a Web Developer...", { delay: 400 })
+				.pause(1000)
+				.delete()
+				.type("a High Performer...", { delay: 400 })
+				.pause(1000)
+				.delete()
+				.type("a Critical Thinker...", { delay: 400 })
+				.pause(1000)
+				.delete()
+				.go();
+				</script>
 			</div>
 
 			<div class="intro-wrapper">
@@ -73,7 +105,7 @@
 				<div class="about-me">
 					<h4>More about me</h4>
 
-					<p>I am from the Niagara region of Ontario, where I completed my Highschool degree. I am originally born in America and immigrated to Canada in 2009. I have interests in web development, data science, game development, Machine learning and AI. Machine learning and AI is something I want to pursue as I feel like it can create many opportunities not just for myself but for society for the better. My current big project as of right now is creating a top-down view 2D game.</p>
+					<p>I am from the Niagara region of Ontario, where I completed my Highschool degree. I was originally born in America and immigrated to Canada in 2009. I have interests in web development, data science, game development, Machine learning and AI. Machine learning and AI is something I want to pursue as I feel like it can create many opportunities not just for myself but for society. My current big project as of right now is creating a top-down view 2D game.</p>
 
 				</div>
 				<hr>
@@ -129,6 +161,16 @@
 						<a target="_blank" href="https://github.com/sainis43/Robotic-Arm">Learn More</a>
 					</div>
 				</div> 
+
+				<div class="post"> 							<!-- copy from here -->
+					<img class="thumbnail" src="images/2Dgame.png">
+					<div class="post-preview">
+						<h6 class="post-title">2D-Game</h6>
+						<p class="post-intro">
+							This is a top down view dungeon shooter I have been developing in unity, the game is about running through a dungeon eliminating any enemies in the way. <br></p>
+						<a target="_blank" href="https://github.com/sainis43/">Learn More</a>
+					</div>
+				</div> 
 			</div>
 		</div>
 	</section>
@@ -149,10 +191,10 @@
 				<div>
 					<a target="_blank" href="mailto:sainis43@mcmaster.ca"><img id="social-pic-link" src="images/outlooklogo.png"></a>
 				</div>
+
 			</div>
 		</div>
 	</section>
 <script type="text/javascript" src="scriptforcolour.js"></script>
-
 </body>
 </html>
